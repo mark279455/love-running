@@ -163,21 +163,21 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading h2{
+.right-about-heading h2 {
     text-align: right;
 }
 
-.right-about-heading p{
+.right-about-heading p {
     text-align: right;
 }
 
-#welcome{
+#welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
 
-#circle-container{
+#circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -188,7 +188,7 @@ hr {
     margin: 0 auto;
 }
 
-#circle-cover-bg{
+#circle-cover-bg {
     background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
@@ -196,7 +196,7 @@ hr {
 
 /* event times */
 
-#times{
+#times {
     background: url('../images/dublin-city.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -205,9 +205,9 @@ hr {
     overflow: hidden;
 }
 
-#times div{
+#times div {
     color: #fafafa;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 20%;
     height: 300px;
     float: left;
@@ -217,23 +217,23 @@ hr {
     box-sizing: border-box;
 }
 
-#times h2{
+#times h2 {
     color: #fafafa;
 }
 
-footer{
+footer {
     height: 150px;
 }
 
-.social-networks{
-    text-align: center;  
+.social-networks {
+    text-align: center;
 }
 
-.social-networks > li{
+.social-networks>li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -242,90 +242,105 @@ footer{
 
 /* gallery */
 
-#photos{
+#photos {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 }
 
-#photos > img{
+#photos>img {
     width: 100%;
 }
 
 /* media queries */
 
 /* medium larger displays - 1200px wide and down*/
-@media screen and (max-width: 1200px){
-    #club-ethos{
+@media screen and (max-width: 1200px) {
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    #welcome{
+    #welcome {
         padding: 30px 0;
         margin: 0;
     }
 
-    #left-about, #right-about{
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #center-about{
+    #center-about {
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #times > div{
+    #times>div {
         width: 100%;
         clear: both;
         height: 150px;
         padding: 0;
     }
 
-    hr{
-        display:none;
+    hr {
+        display: none;
     }
 }
 
 /* medium larger displays - 950px wide and down*/
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
 
-    #menu{
+    #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
-    
-    #cover-text{
+
+    #cover-text {
         left: 0;
 
     }
 
-    #club-ethos{
+    #club-ethos {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading{
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2{
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p{
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* smaller size displays - 800px and down*/
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
     }
 }
